@@ -8,8 +8,8 @@
     })
 
     let
-        name = 'Hello',
-        lastname = 'World',
+        name,
+        lastname,
         text
 
     function save(name, lastname) {
