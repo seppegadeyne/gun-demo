@@ -1,5 +1,4 @@
 <script>
-    import { onMount } from 'svelte'
     import Gun from 'gun'
 
     const gun = Gun({
@@ -7,8 +6,6 @@
             'https://gun.straffesites.com/gun'
         ]
     })
-
-    //const gun = Gun()
 
     let
         name = 'Hello',
